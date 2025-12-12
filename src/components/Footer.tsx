@@ -9,10 +9,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-[#2563EB] to-[#60A5FA] rounded-lg flex items-center justify-center">
-                <Droplet className="w-6 h-6 text-white" />
-              </div>
-              <span className="text-xl font-bold">PredictFlood</span>
+              <img 
+              src="/logo.png" 
+              alt="O'Croustille Logo" 
+              className="w-40 h-40 object-contain transform group-hover:scale-105 transition-transform"
+            />
             </div>
             <p className="text-white/80 text-sm">
               Solution technologique de prévention des inondations en Afrique de l'Ouest
