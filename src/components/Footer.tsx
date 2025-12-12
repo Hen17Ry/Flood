@@ -1,4 +1,4 @@
-import { Droplet, Mail, MapPin } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
